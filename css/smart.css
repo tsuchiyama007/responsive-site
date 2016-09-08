@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*===============================================
+●smart.css 画面の横幅が360pxまで
+===============================================*/
+@media only screen and (max-width:360px){
+img{
+	max-width: 100%;
+	height: auto;
+	width:auto;　
+}
+
+#container{
+	width:100%;
+}
+
+body{
+		font-size: 13px ;
+	}
+	#header{
+		width: 100%;
+		height:auto;
+		padding-bottom:20px;
+	}
+	
+	#header h1,
+	.logo,
+	.telephone{
+		text-align:center;
+	}
+	
+	
+	#main_nav .inner{
+		width: 100%;
+	}
+	
+	.logo,
+	.telephone{
+		clear:both;
+		width:100%;
+		float:none;
+		margin:0;
+	}
+	
+	.box img{
+		float:left;
+		margin-right:5px;
+	}
+	
+	.box h3{
+		padding-top:0;
+	}
+
+	.alignleft,.alignright{
+		float:none;
+		display:block;
+		margin:0 auto 10px;
+	}
+	.main_box{
+		float:left;
+	}
+	
+}
