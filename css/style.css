@@ -203,17 +203,16 @@ div.nav_list{
 /* メイン画像 */
 #mainImg{
 	margin:20px auto;
-	margin-left: 15px;
 	padding:0;
-	width:100%;
-	height: 500px;
 	position:relative;
 	line-height:0;
+	width:100%;
+	height:500px;
+	background-image: url("../images/main2.jpg");
+	background-size: cover;
+	background-position: center center;
 }
 
-#mainImg img{
-	border:4px solid #ebebeb;
-}
 
 .slogan{
 	position:absolute;
@@ -255,8 +254,9 @@ div.nav_list{
 	border:1px solid #ebebeb;
 }
 
-.box img{
+.box img {
 	border:4px solid #ebebeb;
+	
 }
 
 .box h2 {
